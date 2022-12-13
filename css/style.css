@@ -1,0 +1,173 @@
+body {
+    background-color: black;
+}
+
+/*navbar*/
+.nav {
+    list-style-type: none;
+    overflow: hidden;
+    padding: 10px;
+    margin: 0px;
+    background-color: black;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+}
+
+.nav-items {
+    text-decoration: none;
+    display: block;
+    float: right;
+    margin-top: 15px;
+    padding: 10px 30px;
+    color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+}
+
+.nav-logo {
+    text-decoration: none;
+    display: block;
+    float: left;
+    margin-top: 15px;
+    padding: 10px 10px;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.nav-items:hover {
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+}
+
+img {
+    top: 0px;
+    width: 80px;
+    float: left;
+    padding-left: 10px;
+    display: block;
+    padding-top: 1px;
+}
+/*navbar end*/
+
+/*hero image home*/
+.hero-image {
+    background-image: url(../img/pexels-cottonbro-studio-8720269.jpg);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 10px;
+}
+
+.hero-text {
+    position: absolute;
+    top: 45%;
+    left: 30%;
+    padding: 10px;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-text button {
+    outline: none;
+    border: 1px solid whitesmoke;
+    display: inline-block;
+    padding: 10px 20px;
+    width: 150px;
+    color: whitesmoke;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.hero-image button:hover {
+    text-decoration: none;
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+}
+/*hero image home end*/
+
+/*shop grid*/
+* {
+    box-sizing: border-box;
+}
+
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+
+}
+
+.column h2 {
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+}
+
+.column p {
+    font-family:'Inconsolata', monospace;
+    padding-bottom: 10px;
+}
+
+.column button {
+    outline: none;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    display: inline-block;
+    color: whitesmoke;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 5px 5px;
+    width: 100px;
+}
+
+.column button:hover {
+    background-color: rgba(255, 255, 255, 0.212);
+    color: whitesmoke;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img.one {
+    width: 370px;
+    height: 350px;
+    padding: 30px;
+}
+
+
+/*shop grid end*/
+
+/*spacer*/
+.spacer {
+    background-color: black;
+    padding: 4px;
+}
+/*spacer end/
+
+/*footer*/
+footer {
+    padding: 10px 20px;
+    background-color: black;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    text-align: center;
+}
+/*footer end*/
