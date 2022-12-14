@@ -119,7 +119,8 @@ img {
     float: left;
     width: 50%;
     padding: 10px;
-
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
 }
 
 .column h2 {
