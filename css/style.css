@@ -232,7 +232,102 @@ img.two-home{
     background-color: black;
     padding: 50px;
 }
+
+.spacer-buy {
+    background-color: black;
+    padding: 70px;
+}
 /*spacer end/
+
+/*shop grid buy*/
+.container2 {
+    width: auto;
+}
+
+.full {
+    width: 100%;
+    height: 460px;
+    margin-bottom: 10px;
+}
+
+.full button {
+    outline: none;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    color: whitesmoke;
+    background-color: transparent;
+    cursor: pointer;
+    padding: 5px 5px;
+    width: 200px;
+    height: 50px;
+    float: right;
+    margin-top: 345px;
+    margin-right: 150px;
+}
+
+.full button:hover {
+    background-color: rgba(255, 255, 255, 0.212);
+    color: whitesmoke;
+}
+
+img.three {
+    width: 490px;
+    height: 450px;
+    padding: 50px;
+}
+
+img.four {
+    width: 490px;
+    height: 450px;
+    padding: 50px;
+}
+
+.right {
+    height: 320px;
+    width: 33%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float: right;
+    color: whitesmoke;
+    padding: 10px 50px;
+
+}
+
+.left-top {
+    height: 130px;
+    width: 66%;
+    margin-bottom: 10px;
+    padding: 4px 50px 40px;
+    color: whitesmoke;
+    line-height: 2px;
+}
+
+.left-bttm {
+    height: 180px;
+    width: 66%;
+    margin-bottom: 10px;
+    padding: 4px 50px;
+    color: whitesmoke;
+}
+
+.right ol { 
+    line-height: 30px;
+}
+
+.listen {
+    height: 90px;
+    width: 25%;
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 1px;
+    padding-bottom: 8px;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    font-size: 20px;
+}
+/*shop grid buy end*/
 
 /*contact form*/
 .form-header {
@@ -347,6 +442,24 @@ input[type=submit]:hover {
     border: 1px solid transparent;
 }
 /*hero image bottom end*/
+
+/*about page*/
+.about {
+    margin: auto;
+    padding: 40px;
+    width: 50%;
+}
+
+.about h2 {
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about p {
+    color: whitesmoke;
+    font-family: 'Inconsolata', monospace;
+}
+/*about page end*/
 
 /*footer*/
 .footer {
